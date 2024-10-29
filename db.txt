@@ -1,0 +1,11 @@
+CREATE TABLE persona (
+    idpersona VARCHAR(50) PRIMARY KEY,
+    nombres VARCHAR(100) NOT NULL,
+    apellidos VARCHAR(100) NOT NULL,
+    fechanacimiento DATE NOT NULL,
+    telefono VARCHAR(20),
+    sexo VARCHAR(20),
+    sueldo DECIMAL(10, 2),
+    cupo INT,
+    foto BYTEA
+);
